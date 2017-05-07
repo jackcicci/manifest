@@ -16,6 +16,11 @@
            sync-c="true"
            sync-j="4" />
 
+  <!-- SOS Repo's -->
+  <project path="changelog" name="changelog" remote="cmdall" revision="n-mr2.1" >
+    <copyfile src="Changelog.txt" dest="Changelog.txt" />
+  </project>
+
   <!-- Pure Repo`s -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr2" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr2" />

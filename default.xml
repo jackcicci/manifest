@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remotes -->
+  <remote  name="github"
+           fetch="https://github.com" />
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
   <default revision="refs/tags/android-7.1.2_r11"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
+  <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>

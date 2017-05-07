@@ -25,6 +25,7 @@
   </project>
   <project path="manifest" name="manifest" remote="cmdall" revision="n-mr2.1" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="cmdall" revision="n-mr2.1" >
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="cmdall" revision="n-mr2.1" >
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="cmdall" revision="n-mr2.1" >
@@ -381,7 +382,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />

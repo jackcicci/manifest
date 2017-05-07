@@ -59,6 +59,7 @@
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="n-mr2" />
 
   <!-- Angler Source -->
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="pure" revision="n-mr2" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n-mr2" />
 
   <!-- Bullhead Source -->
@@ -111,7 +112,6 @@
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,pdk" clone-depth="1" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device,pdk" />
   <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />

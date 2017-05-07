@@ -20,6 +20,7 @@
   <project path="changelog" name="changelog" remote="cmdall" revision="n-mr2.1" >
     <copyfile src="Changelog.txt" dest="Changelog.txt" />
   </project>
+  <project path="manifest" name="manifest" remote="cmdall" revision="n-mr2.1" />
 
   <!-- Pure Repo`s -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr2" />

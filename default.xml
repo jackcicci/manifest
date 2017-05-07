@@ -34,6 +34,7 @@
 
   <!-- DUI Repo's -->
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="cmdall" revision="n-mr2.1" >
+  <project path="external/DUtils" name="platform_external_DUtils" remote="cmdall" revision="n-mr2.1" >
 
   <!-- Shamu Source -->
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="n-mr2" />

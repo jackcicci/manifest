@@ -32,6 +32,9 @@
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr2" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="n-mr2" />
 
+  <!-- DUI Repo's -->
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="cmdall" revision="n-mr2.1" >
+
   <!-- Shamu Source -->
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="n-mr2" />
 

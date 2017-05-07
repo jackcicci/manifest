@@ -9,10 +9,26 @@
            review="android-review.googlesource.com" />
   <remote name="cmdall"
            fetch="https://github.com/cmdall/" />
+  <remote name="pure"
+           fetch="https://github.com/PureNexusProject/" />
   <default revision="refs/tags/android-7.1.2_r11"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
+
+  <!-- Pure Repo`s -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr2" />
+  <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr2" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="n-mr2" />
+
+  <!-- Shamu Source -->
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="n-mr2" />
+
+  <!-- Angler Source -->
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n-mr2" />
+
+  <!-- Bullhead Source -->
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="n-mr2" />
 
   <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk" >
@@ -27,7 +43,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -544,7 +559,6 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" />

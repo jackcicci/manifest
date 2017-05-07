@@ -24,7 +24,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="cmdall" revision="n-mr2.1" />
-
+  <project path="vendor/pure" name="platform_vendor_sos" remote="cmdall" revision="n-mr2.1" >
 
   <!-- Pure Repo`s -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr2" />

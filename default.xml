@@ -24,6 +24,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="cmdall" revision="n-mr2.1" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="cmdall" revision="n-mr2.1" >
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="cmdall" revision="n-mr2.1" >
@@ -368,7 +369,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />

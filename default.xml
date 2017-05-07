@@ -36,6 +36,7 @@
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/messaging" name="platform_packages_apps_Messaging" remote="cmdall" revision="n-mr2.1" >
+  <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" groups="pdk-fs" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="cmdall" revision="n-mr2.1" >
   <project path="packages/apps/SixSettings" name="platform_packages_apps_SoSSettings" remote="cmdall" revision="n-mr2.1" >
@@ -473,7 +474,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />

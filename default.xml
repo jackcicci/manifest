@@ -2,6 +2,8 @@
 <manifest>
 
   <!-- Remotes -->
+  <remote  name="bb"
+           fetch="https://bitbucket.org" />
   <remote  name="github"
            fetch="https://github.com" />
   <remote  name="aosp"

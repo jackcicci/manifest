@@ -14,7 +14,7 @@
   <default revision="refs/tags/android-7.1.2_r16"
            remote="aosp"
            sync-c="true"
-           sync-j="4" />
+           sync-j="8" />
 
   <!-- SiX Repo's -->
   <project path="manifest" name="manifest" remote="sixrom" revision="n-mr2.1" />

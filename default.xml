@@ -32,16 +32,9 @@
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="sixrom" revision="n-mr2.1" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="sixrom" revision="n-mr2.1" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
-  <project path="packages/apps/SixSettings" name="platform_packages_apps_SiXSettings" remote="sixrom" revision="n-mr2.1" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
-  <project path="packages/apps/SixOTA" name="platform_packages_apps_SiXOTA" remote="sixrom" revision="n-mr2.1" />
-  <project path="packages/apps/ThemeInterfacer" name="platform_packages_apps_ThemeInterfacer" remote="sixrom" revision="n-mr2.1" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="sixrom" revision="n-mr2.1" />
-  <project path="vendor/pure" name="platform_vendor_six" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/CalendarWidget" name="platform_packages_apps_CalendarWidget" remote="sixrom" revision="n-mr2.1" />
@@ -53,17 +46,24 @@
   <project path="packages/apps/Eleven" name="platform_packages_apps_Eleven" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
+  <project path="packages/apps/messaging" name="platform_packages_apps_Messaging" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="sixrom" revision="n-mr2.1" />
-  <project path="packages/apps/messaging" name="platform_packages_apps_Messaging" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
+  <project path="packages/apps/SixOTA" name="platform_packages_apps_SiXOTA" remote="sixrom" revision="n-mr2.1" />
+  <project path="packages/apps/SixSettings" name="platform_packages_apps_SiXSettings" remote="sixrom" revision="n-mr2.1" />
+  <project path="packages/apps/ThemeInterfacer" name="platform_packages_apps_ThemeInterfacer" remote="sixrom" revision="n-mr2.1" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="sixrom" revision="n-mr2.1" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="sixrom" revision="n-mr2.1" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="sixrom" revision="n-mr2.1" />
+  <project path="vendor/pure" name="platform_vendor_six" remote="sixrom" revision="n-mr2.1" />
 
   <!-- PureNexus Repo`s -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr2" />

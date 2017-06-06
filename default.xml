@@ -2,17 +2,21 @@
 <manifest>
 
   <!-- Remotes -->
-  <remote  name="bb"
-           fetch="https://bitbucket.org" />
-  <remote  name="github"
-           fetch="https://github.com" />
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
-  <remote name="sixrom"
-           fetch="https://github.com/SiXROM/" />
-  <remote name="pure"
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
+  <remote  name="gh"
+           fetch="https://github.com/" />
+
+  <remote  name="pure"
            fetch="https://github.com/PureNexusProject/" />
+
+  <remote  name="sixrom"
+           fetch="https://github.com/SiXROM/" />
+
   <default revision="refs/tags/android-7.1.2_r16"
            remote="aosp"
            sync-c="true"

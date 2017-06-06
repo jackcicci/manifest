@@ -33,6 +33,7 @@
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="sixrom" revision="n-mr2.1" />
   <project path="art" name="platform_art" groups="pdk" remote="sixrom" revision="n-mr2.1" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="sixrom" revision="n-mr2.1" />
+  <project path="external/sqlite" name="platform_external_sqlite" groups="pdk" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="sixrom" revision="n-mr2.1" />
@@ -333,7 +334,6 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" />

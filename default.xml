@@ -32,6 +32,7 @@
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="sixrom" revision="n-mr2.1" />
   <project path="art" name="platform_art" groups="pdk" remote="sixrom" revision="n-mr2.1" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sixrom" revision="n-mr2.1" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="sixrom" revision="n-mr2.1" />
@@ -97,7 +98,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />

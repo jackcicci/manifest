@@ -71,7 +71,7 @@
   <!-- Shamu Source -->
   <project path="device/moto/shamu" name="platform_device_moto_shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" remote="sixrom" revision="n-mr2.1" />
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" remote="pure" revision="n-mr2" />
-  <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="n-mr2" />
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="sixrom" revision="n-mr2.1" />
 
   <!-- Angler Source -->
   <project path="device/huawei/angler" name="platform_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="sixrom" revision="n-mr2.1" />

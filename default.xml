@@ -17,11 +17,11 @@
            sync-j="4" />
 
   <!-- SiX Repo's -->
-  <project path="manifest" name="manifest" remote="sixrom" revision="n-mr2.1" />
+  <project path="manifest" name="manifest" remote="sixrom" revision="glockman" />
   <project path="changelog" name="changelog" remote="sixrom" revision="n-mr2.1" >
     <copyfile src="Changelog.txt" dest="Changelog.txt" />
   </project>
-  <project path="build" name="platform_build" groups="pdk" remote="sixrom" revision="n-mr2.1" >
+  <project path="build" name="platform_build" groups="pdk" remote="sixrom" revision="glockman" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="sixrom" revision="n-mr2.1" />
